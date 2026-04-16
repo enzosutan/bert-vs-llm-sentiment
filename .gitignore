@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Data (reproducible from notebook — don't track large CSVs)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db

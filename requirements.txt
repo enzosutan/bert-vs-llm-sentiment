@@ -1,0 +1,23 @@
+# BERT vs LLM Sentiment Analysis — Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML
+torch>=2.2.0
+transformers>=4.37.0
+datasets>=2.16.0
+
+# OpenAI (LLM zero-shot)
+openai>=1.12.0
+
+# Data
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Notebook
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+scikit-learn>=1.4.0
