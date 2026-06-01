@@ -1,22 +1,36 @@
-# Secrets
+# Environment
 .env
-
-# Data (reproducible from notebook — don't track large CSVs)
-data/
-
-# Python
 __pycache__/
 *.pyc
 *.pyo
-*.egg-info/
-.venv/
-venv/
-env/
+.DS_Store
+__MACOSX/
 
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# OS
-.DS_Store
-Thumbs.db
+# Data files (regenerate by running notebooks)
+data/
+datasets/imdb/*.csv
+datasets/twitter/*.csv
+datasets/amazon/*.csv
+
+# Results & plots (regenerate by running notebooks)
+results/*.csv
+plots/*.png
+plots/*.pdf
+
+# Keep the gitkeep markers
+!datasets/imdb/.gitkeep
+!datasets/twitter/.gitkeep
+!datasets/amazon/.gitkeep
+!results/.gitkeep
+!plots/.gitkeep
+
+# Model cache (HuggingFace)
+.cache/
+
+# SenticNet Reference SDK Files
+data.xls
+sdk.py
